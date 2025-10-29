@@ -1,0 +1,6 @@
+[build]
+  publish = "mainpage-website"     # index.html이 있는 폴더
+[functions]
+  directory = "netlify/functions"  # Functions 폴더 경로
+[build.environment]
+  NODE_VERSION = "18"
